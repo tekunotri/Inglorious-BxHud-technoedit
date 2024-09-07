@@ -1,0 +1,22 @@
+//=================================================================================================================================
+
+event MenuOpen
+{		
+        RunEvent ScopeDie								0.0
+	StopEvent MenuClose 							0.0
+	
+        Animate SpeedBG                                Alpha "255"                   Linear 0.0 	0.1
+ 	Animate Speedometer                            Alpha "255"                   Linear 0.0 	0.1
+	Animate speedometershadow                      Alpha "255"                   Linear 0.0 	0.1
+	
+	Runevent MenuOpen                           0.0
+}
+
+event MenuClose
+{
+        Animate SpeedBG                                Alpha "0"                   Linear 0.0 	0.0
+	Animate Speedometer                            Alpha "0"                   Linear 0.0 	0.0
+	Animate speedometershadow                      Alpha "0"                   Linear 0.0 	0.0
+	Runevent MenuClose                           0.0
+}
+//=================================================================================================================================
