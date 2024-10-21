@@ -108,7 +108,7 @@
 		"visible"					"1"
 		"enabled"				"1"
 		"scaleImage"			"1"
-		"image"					"../vgui/replay/thumbnails/Star"
+		"image"					"replay/thumbnails/star"
 	}
 	"StarShadow"
 	{
@@ -122,7 +122,7 @@
 		"visible"					"1"
 		"enabled"				"1"
 		"scaleImage"			"1"
-		"image"					"../vgui/replay/thumbnails/StarShadow"
+		"image"					"replay/thumbnails/starshadow"
 	}
 	"Cross"
 	{
@@ -136,7 +136,7 @@
 		"visible"					"1"
 		"enabled"				"1"
 		"scaleImage"			"1"
-		"image"					"../vgui/replay/thumbnails/igcrossShadow"
+		"image"					"replay/thumbnails/igcrossshadow"
 		"alpha"                 "0"
 	}
     "Cross2"
@@ -151,7 +151,7 @@
 		"visible"					"1"
 		"enabled"				"1"
 		"scaleImage"			"1"
-		"image"					"../vgui/replay/thumbnails/igcross"
+		"image"					"replay/thumbnails/igcross"
 		"alpha"                 "0"
 	}
 	"PlayerHealthBG"

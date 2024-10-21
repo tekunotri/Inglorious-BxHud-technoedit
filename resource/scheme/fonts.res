@@ -475,9 +475,60 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Roboto Condensed Bold"
-				"tall"										"11"
-				"antialias"									"1"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[$X360]
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"9"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
 		"DefaultUnderline"
@@ -501,47 +552,244 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Roboto Condensed Bold"
-				"tall"										"12"
-				"antialias"									"1"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"9"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
 			}
 		}
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"										"Verdana"
-				"tall"										"7"
-				"antialias"									"1"
-				"range"										"0x0000 0x017F"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"9"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
 			}
 		}
 		"DefaultLarge"
 		{
 			"1"
 			{
-				"name"										"Roboto Condensed Bold"
-				"tall"										"20"
-				"antialias"									"1"
-				"range"										"0x0000 0x017F"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"18"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"480 599"
+			}
+			"2"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"21"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"600 767"
+			}
+			"3"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"22"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"28"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"18"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"Arial"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
 		"HudHintText"
 		{
 			"1"
 			{
-				"name"										"Roboto Condensed Bold"
-				"tall"										"11"
-				"antialias" 								"1"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"12"
+				"weight"	"700"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"13"	[$WIN32]
+				"tall"		"23"	[$X360]
+				"weight"	"700"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"14"
+				"weight"	"700"
+				"yres"	"768 1023"
+			}
+			"4"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"20"
+				"weight"	"700"
+				"yres"	"1024 1199"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"12"
+				"weight"	"700"
+				"antialias"	"1"
 			}
 		}
 		"HudFontGiant"
 		{
 			"1"
 			{
-				"name"										"Roboto Condensed Bold"
-				"tall"										"24"
-				"antialias" 								"1"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"24"
+				"tall_lodef"	"80"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"480 599"
+			}
+			"2"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"32"
+				"tall_hidef"	"120"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"600 767"
+			}
+			"3"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"768 1023"
+			}
+			"4"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"48"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"1024 1199"
+			}
+			"5"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontGiantBold"
@@ -614,6 +862,17 @@ Scheme
 			{
 				"name"										"Roboto Condensed Bold"
 				"tall"										"24"
+				"weight"									"500"
+				"yres"										"1 1199"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+			"2" 
+			{
+				"name"										"Roboto Condensed Bold"
+				"tall"										"10"
+				"weight"									"500"
+				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
